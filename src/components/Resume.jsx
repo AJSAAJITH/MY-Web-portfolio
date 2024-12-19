@@ -19,7 +19,7 @@ function Resume() {
                     className="inline-block"
                 >
                     <a
-                        href="https://drive.google.com/file/d/19MAWn-5qvYDIMogonUQsAdIhtllgamEe/view?usp=drive_link" // Replace with the actual file path or URL
+                        href="https://drive.google.com/file/d/1T5Iuub6rxJXct6krdq5ylWqRGZJUUSK9/view?usp=drive_link" // Replace with the actual file path or URL
                         download="AJASaajith_CV.pdf" 
                         className="p-4 text-sm font-semibold tracking-tighter text-purple-200 bg-neutral-500 rounded-2xl"
                     >
