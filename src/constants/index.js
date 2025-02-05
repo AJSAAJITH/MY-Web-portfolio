@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project_Chat_app.png";
 import project3 from "../assets/projects/project_Advance_MERN.png";
 import project4 from "../assets/projects/project4_React_porfolio.png";
 import project5 from "../assets/projects/project5.png";
+import hangman from "../assets/projects/hangman.jpg";
+import netflix from "../assets/projects/netfilx-clone.jpg";
 
 
 export const HERO_CONTENT = `As a passionate Full-Stack MERN Developer, I focus on crafting robust and scalable web applications using cutting-edge technologies like React.js, Node.js, JavaScript, Redux, Next.js, MongoDB, MySQL, and Firebase. I am dedicated to delivering seamless user experiences by combining dynamic front-end frameworks such as Tailwind CSS and Bootstrap with interactive animations through tools like React Motion. With a strong emphasis on efficient user authentication, authorization, and system performance, I aim to create intuitive, high-quality solutions that meet the unique needs of each project.`;
@@ -140,6 +142,22 @@ export const PROJECTS = [
   },
 
   {
+    title: "Netflix-Clone",
+    image: netflix,
+    description: `
+Developed a Netflix-Clone web application featuring a dynamic and responsive user interface using 
+React and Tailwind CSS for an engaging user experience. Implemented secure user authentication and 
+authorization using JWT for session management and role-based access control. Built a scalable backend
+ with Node.js and MongoDB to handle seamless data management, including user profiles, content categories,
+  and media streaming. Integrated RESTful APIs to fetch movie data and ensured optimal application performance
+   with Vite for faster development and build processes.
+    `,
+    giturl: "https://github.com/AJSAAJITH/Netflix-Clone",
+    privew_url: "https://netflix-clone-4o0u.onrender.com",
+    technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "MongoDB", "TMDB"],
+  },
+
+  {
     title: "User Authentication & Authorization System",
     image: project3,
     description: `
@@ -151,7 +169,6 @@ export const PROJECTS = [
     privew_url: "https://mern-advance-auth-i1ur.onrender.com",
     technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "MongoDB"],
   },
-
   {
     title: "React Portfolio Website",
     image: project4,
@@ -164,6 +181,21 @@ export const PROJECTS = [
     giturl: "https://github.com/AJSAAJITH/React_portfolio_Website",
     privew_url: "#",
     technologies: ["React", "Tailwind CSS", "HTML", "CSS"],
+  },
+
+  {
+    title: "Hangman Game",
+    image: hangman,
+    description: `
+Developed a small interactive game using TypeScript and React, ensuring type-safe
+ code and enhanced maintainability. Implemented dynamic gameplay mechanics and a responsive
+  UI for an engaging player experience. Utilized React's component-based architecture to build
+   scalable and reusable features, optimizing performance for seamless gameplay.
+    `,
+
+    giturl: "https://github.com/AJSAAJITH/Hangman",
+    privew_url: "#",
+    technologies: ["TypeSctipt", "JavaScript", "HTML", "CSS"],
   },
 
   {

@@ -54,7 +54,8 @@ function Projects() {
                             className='w-full max-w-xl lg:w-3/4 lg:px-4 lg:justify-center'>
                             <h6 className='mb-2 font-semibold'>{project.title}</h6>
                             <p className='mb-4 text-justify text-neutral-400'>{project.description}</p>
-                            <p className='mb-4 text-justify text-neutral-400'><a href={project.giturl} target='_blanck'>{project.giturl}</a></p>
+                            <button><a href={project.privew_url}>Live Privew</a></button><br />
+                            <button><a href={project.giturl}>GitHub</a></button><br />
                             {project.technologies.map((tech, idx) => (
                                 <span key={idx} className='px-2 py-1 mt-4 mr-2 text-sm font-medium text-purple-800 rounded bg-neutral-900'>
                                     {tech}

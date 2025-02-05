@@ -1,14 +1,16 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri';
 import { RiJavascriptLine } from 'react-icons/ri';
-import { SiMongodb } from "react-icons/si";
+import { SiDrizzle, SiExpress, SiExpressvpn, SiMongodb } from "react-icons/si";
 import { RiNodejsLine } from 'react-icons/ri';
 import { GrMysql } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
 import { TbBrandRedux } from "react-icons/tb";
+import { TbBrandTypescript } from "react-icons/tb";
 
 import { motion } from 'motion/react';
 import { animate } from 'motion';
+import { VscGithub } from 'react-icons/vsc';
 
 const iconVarient = (duration) => ({
     initial: { y: -10 },
@@ -52,6 +54,13 @@ function Technologies() {
                     initial="initial"
                     animate="animate"
                     className='p-4 border-4 border-neutral-800 rounded-2xl'>
+                    <TbBrandNextjs className='text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVarient(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
                     <RiNodejsLine className='text-green-500 text-7xl' />
                 </motion.div>
                 <motion.div
@@ -59,7 +68,7 @@ function Technologies() {
                     initial="initial"
                     animate="animate"
                     className='p-4 border-4 border-neutral-800 rounded-2xl'>
-                    <RiJavascriptLine className='text-yellow-400 text-7xl' />
+                    <SiExpressvpn className='text-7xl' />
                 </motion.div>
                 <motion.div
                     variants={iconVarient(2.5)}
@@ -67,13 +76,6 @@ function Technologies() {
                     animate="animate"
                     className='p-4 border-4 border-neutral-800 rounded-2xl'>
                     <TbBrandRedux className='text-purple-500 text-7xl' />
-                </motion.div>
-                <motion.div
-                    variants={iconVarient(2.5)}
-                    initial="initial"
-                    animate="animate"
-                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
-                    <TbBrandNextjs className='text-7xl' />
                 </motion.div>
                 <motion.div
                     variants={iconVarient(2.5)}
@@ -88,6 +90,34 @@ function Technologies() {
                     animate="animate"
                     className='p-4 border-4 border-neutral-800 rounded-2xl'>
                     <GrMysql className='text-blue-500 text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVarient(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
+                    <SiDrizzle className='text-blue-500 text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVarient(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
+                    <VscGithub className='text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVarient(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
+                    <RiJavascriptLine className='text-yellow-400 text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVarient(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='p-4 border-4 border-neutral-800 rounded-2xl'>
+                    <TbBrandTypescript className='text-blue-500 text-7xl' />
                 </motion.div>
             </motion.div>
         </div>
