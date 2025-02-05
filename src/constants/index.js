@@ -194,7 +194,7 @@ Developed a small interactive game using TypeScript and React, ensuring type-saf
     `,
 
     giturl: "https://github.com/AJSAAJITH/Hangman",
-    privew_url: "#",
+    privew_url: "https://hangman-7bpo.onrender.com/",
     technologies: ["TypeSctipt", "JavaScript", "HTML", "CSS"],
   },
 
