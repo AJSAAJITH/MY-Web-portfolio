@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project4_React_porfolio.png";
 import project5 from "../assets/projects/project5.png";
 import hangman from "../assets/projects/hangman.jpg";
 import netflix from "../assets/projects/netfilx-clone.jpg";
+import hotel_system from "../assets/projects/hotel_system.png";
 
 
 export const HERO_CONTENT = `As a passionate Full-Stack MERN Developer, I focus on crafting robust and scalable web applications using cutting-edge technologies like React.js, Node.js, JavaScript, Redux, Next.js, MongoDB, MySQL, and Firebase. I am dedicated to delivering seamless user experiences by combining dynamic front-end frameworks such as Tailwind CSS and Bootstrap with interactive animations through tools like React Motion. With a strong emphasis on efficient user authentication, authorization, and system performance, I aim to create intuitive, high-quality solutions that meet the unique needs of each project.`;
@@ -116,7 +117,32 @@ export const PROJECTS = [
     `,
     giturl: "https://github.com/AJSAAJITH/ECom",
     privew_url: "http://13.60.240.164/",
-    technologies: ["Node.js", "EXpress.js", "React", "Taildwind", "MongoDB"],
+    technologies: ["Node", "EXpress", "React", "Redux", "Taildwind", "MongoDB"],
+  },
+
+  {
+    title: "Hotel Managment System With (AI)",
+    image: hotel_system,
+    description: `Developed an AI-powered hotel management system enabling users to
+     search for hotels based on their specific requirements using a real-time AI chat feature.
+      Integrated a Large Language Model (LLM) with Retrieval-Augmented Generation (RAG) architecture
+       for intelligent and precise search results. Built with Node.js, TypeScript, and Express for a
+        robust backend, and designed a dynamic UI using Tailwind CSS and shadcn UI. Implemented secure
+         authentication and authorization with Clerk middleware. Utilized MongoDB Atlas with Vector DB 
+         for efficient data storage and retrieval, ensuring scalability and performance.`,
+
+    giturl: "https://github.com/AJSAAJITH/AI-BASE-HOTEL-MANAGMENT-SYSTEM",
+    privew_url: "https://aidf-horizone-frontend-saajith.netlify.app/",
+    technologies: [
+      "Node",
+      "TypeScript",
+      "RTK Query",
+      "Clerk",
+      "OpenAi",
+      "Vector DB",
+      "ShadcnUi"
+
+    ],
   },
 
   {
@@ -132,11 +158,11 @@ export const PROJECTS = [
     giturl: "https://github.com/AJSAAJITH/Chat-App",
     privew_url: "https://chat-app-v50j.onrender.com/",
     technologies: [
-      "Node.js",
+      "Node",
       "Express",
-      "MongoDB",
       "Socket.IO",
-      "Vite",
+      "Zustand",
+      "MongoDB",
 
     ],
   },
@@ -154,7 +180,7 @@ authorization using JWT for session management and role-based access control. Bu
     `,
     giturl: "https://github.com/AJSAAJITH/Netflix-Clone",
     privew_url: "https://netflix-clone-4o0u.onrender.com",
-    technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "MongoDB", "TMDB"],
+    technologies: ["Node", "React", "Zustand", "TMDB Store", "Tailwind CSS", "MongoDB",],
   },
 
   {
@@ -167,7 +193,7 @@ authorization using JWT for session management and role-based access control. Bu
     `,
     giturl: "https://github.com/AJSAAJITH/mern-advance-auth",
     privew_url: "https://mern-advance-auth-i1ur.onrender.com",
-    technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "MongoDB"],
+    technologies: ["Node", "React", "Express", "Tailwind CSS", "MongoDB"],
   },
   {
     title: "React Portfolio Website",
