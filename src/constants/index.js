@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project4_React_porfolio.png";
 import project5 from "../assets/projects/project5.png";
 import hangman from "../assets/projects/hangman.jpg";
 import netflix from "../assets/projects/netfilx-clone.jpg";
-import hotel_system from "../assets/projects/hotel_system.png";
+import hotel_system from "../assets/projects/hotel_system.jpg";
 
 
 export const HERO_CONTENT = `As a passionate Full-Stack MERN Developer, I focus on crafting robust and scalable web applications using cutting-edge technologies like React.js, Node.js, JavaScript, Redux, Next.js, MongoDB, MySQL, and Firebase. I am dedicated to delivering seamless user experiences by combining dynamic front-end frameworks such as Tailwind CSS and Bootstrap with interactive animations through tools like React Motion. With a strong emphasis on efficient user authentication, authorization, and system performance, I aim to create intuitive, high-quality solutions that meet the unique needs of each project.`;
