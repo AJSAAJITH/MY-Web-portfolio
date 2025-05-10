@@ -22,6 +22,7 @@ function Resume() {
                         href="https://drive.google.com/file/d/1fyHz3bc7WFlRmAb4ezzW5KAXZePRv5YD/view?usp=drive_link" // Replace with the actual file path or URL
                         download="AJASaajith_CV.pdf"
                         className="p-4 text-sm font-semibold tracking-tighter text-purple-200 bg-neutral-500 rounded-2xl"
+                        target="_blank"
                     >
                         Resume
                     </a>
