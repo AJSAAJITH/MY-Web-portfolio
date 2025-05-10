@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PROJECTS } from '../constants';
-import { motion } from 'framer-motion'; 
+import { motion } from 'framer-motion';
 
 function Projects() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -28,7 +28,7 @@ function Projects() {
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
                 className='my-20 text-4xl text-center'>Projects</motion.h1>
-            
+
             <div>
                 {currentProjects.map((project, index) => (
                     <div key={index} className='flex flex-wrap mb-8 lg:justify-center'>
@@ -54,8 +54,8 @@ function Projects() {
                             className='w-full max-w-xl lg:w-3/4 lg:px-4 lg:justify-center'>
                             <h6 className='mb-2 font-semibold'>{project.title}</h6>
                             <p className='mb-4 text-justify text-neutral-400'>{project.description}</p>
-                            <button><a href={project.privew_url}>Live Privew</a></button><br />
-                            <button><a href={project.giturl}>GitHub</a></button><br />
+                            <button><a href={project.privew_url} target='_blank'>Live Privew</a></button><br />
+                            <button><a href={project.giturl} target='_blank'>GitHub</a></button><br />
                             {project.technologies.map((tech, idx) => (
                                 <span key={idx} className='px-2 py-1 mt-4 mr-2 text-sm font-medium text-purple-800 rounded bg-neutral-900'>
                                     {tech}
@@ -78,11 +78,10 @@ function Projects() {
                 {Array.from({ length: totalPages }, (_, index) => (
                     <button
                         key={index}
-                        className={`px-4 py-2 mx-1 rounded ${
-                            currentPage === index + 1
+                        className={`px-4 py-2 mx-1 rounded ${currentPage === index + 1
                                 ? 'bg-purple-700 text-white'
                                 : 'bg-gray-700 text-gray-300 hover:bg-gray-800'
-                        }`}
+                            }`}
                         onClick={() => handlePageChange(index + 1)}
                     >
                         {index + 1}
