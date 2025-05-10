@@ -6,6 +6,7 @@ import project5 from "../assets/projects/project5.png";
 import hangman from "../assets/projects/hangman.jpg";
 import netflix from "../assets/projects/netfilx-clone.jpg";
 import hotel_system from "../assets/projects/hotel_system.jpg";
+import socially from "../assets/projects/socially.webp";
 
 
 export const HERO_CONTENT = `As a passionate Full-Stack MERN Developer, I focus on crafting robust and scalable web applications using cutting-edge technologies like React.js, Node.js, JavaScript, Redux, Next.js, MongoDB, MySQL, and Firebase. I am dedicated to delivering seamless user experiences by combining dynamic front-end frameworks such as Tailwind CSS and Bootstrap with interactive animations through tools like React Motion. With a strong emphasis on efficient user authentication, authorization, and system performance, I aim to create intuitive, high-quality solutions that meet the unique needs of each project.`;
@@ -120,6 +121,31 @@ export const PROJECTS = [
     technologies: ["Node", "EXpress", "React", "Redux", "Taildwind", "MongoDB"],
   },
 
+  {
+    title: "Socially - (Social Media Application)",
+    image: socially,
+    description: `Developed a fully responsive and user-friendly social media
+     application using Next.js, designed to provide a seamless experience across
+      all devices. Enabled users to create accounts, create posts, like, comment,
+       follow/unfollow other users, and receive real-time notifications. Integrated
+        dynamic UI components with Tailwind CSS and shadcn UI for a modern and accessible 
+        interface. Ensured smooth user interactions and optimized performance for scalability and engagement.`,
+
+    giturl: "https://github.com/AJSAAJITH/social_media_app-nextjs",
+    privew_url: "https://social-media-app-nextjs.onrender.com/",
+    technologies: [
+      "Nextjs",
+      "TypeScript",
+      "Neon",
+      "Prisma",
+      "Postgers",
+      "Clerk",
+      "UploadThinks",
+      "Tailwind",
+      "ShadcnUi"
+
+    ],
+  },
   {
     title: "Hotel Managment System With (AI)",
     image: hotel_system,
